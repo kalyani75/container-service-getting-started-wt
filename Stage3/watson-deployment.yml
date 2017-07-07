@@ -21,7 +21,7 @@ spec:
         - name: service-bind-volume
           secret:
             defaultMode: 420
-            secretName: binding-tone
+            secretName: binding-mytoneanalyzer
 ---
 apiVersion: v1
 kind: Service
